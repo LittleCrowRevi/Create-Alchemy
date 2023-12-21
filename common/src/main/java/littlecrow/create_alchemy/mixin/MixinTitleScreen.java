@@ -1,6 +1,6 @@
-package littlecrow.createalchemy.mixin;
+package littlecrow.create_alchemy.mixin;
 
-import littlecrow.createalchemy.CreateAlchemy;
+import littlecrow.create_alchemy.CreateAlchemy;
 import net.minecraft.client.gui.screens.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

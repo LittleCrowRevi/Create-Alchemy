@@ -1,8 +1,8 @@
-package littlecrow.createalchemy.fabric;
+package littlecrow.create_alchemy.fabric;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
-import littlecrow.createalchemy.AlchemyBlocks;
-import littlecrow.createalchemy.CreateAlchemy;
+import littlecrow.create_alchemy.AlchemyBlocks;
+import littlecrow.create_alchemy.CreateAlchemy;
 import net.fabricmc.api.ModInitializer;
 
 public class CreateAlchemyFabric implements ModInitializer {

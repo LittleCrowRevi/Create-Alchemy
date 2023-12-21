@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "create-alchemy",
+  "id": "create_alchemy",
   "version": "${version}",
   "name": "Create Alchemy",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Alchemy!",
   "authors": [
     "LittleCrow"
   ],
@@ -12,16 +12,16 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "Insert License Here",
-  "icon": "assets/createalchemy/icon.png",
+  "icon": "assets/create_alchemy/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "littlecrow.createalchemy.fabric.CreateAlchemyFabric"
+      "littlecrow.create_alchemy.fabric.CreateAlchemyFabric"
     ]
   },
   "mixins": [
-    "createalchemy.mixins.json",
-    "createalchemy-common.mixins.json"
+    "create_alchemy.mixins.json",
+    "create_alchemy-common.mixins.json"
   ],
   "depends": {
     "minecraft": "${minecraft_version}",

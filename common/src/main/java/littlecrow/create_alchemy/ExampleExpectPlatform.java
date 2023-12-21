@@ -1,4 +1,4 @@
-package littlecrow.createalchemy;
+package littlecrow.create_alchemy;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 
