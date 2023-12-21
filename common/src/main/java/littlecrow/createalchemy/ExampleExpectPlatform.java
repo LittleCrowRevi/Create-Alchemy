@@ -1,4 +1,4 @@
-package net.examplemod;
+package littlecrow.createalchemy;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 

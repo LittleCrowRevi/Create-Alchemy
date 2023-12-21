@@ -1,18 +1,18 @@
-package net.examplemod.fabric;
+package littlecrow.createalchemy.fabric;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
-import net.examplemod.ExampleBlocks;
-import net.examplemod.ExampleMod;
+import littlecrow.createalchemy.ExampleBlocks;
+import littlecrow.createalchemy.CreateAlchemy;
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleModFabric implements ModInitializer {
+public class CreateAlchemyFabric implements ModInitializer {
     @Override
     public void onInitialize() {
-        ExampleMod.init();
-        ExampleMod.LOGGER.info(EnvExecutor.unsafeRunForDist(
+        CreateAlchemy.init();
+        CreateAlchemy.LOGGER.info(EnvExecutor.unsafeRunForDist(
                 () -> () -> "{} is accessing Porting Lib on a Fabric client!",
                 () -> () -> "{} is accessing Porting Lib on a Fabric server!"
-                ), ExampleMod.NAME);
+                ), CreateAlchemy.NAME);
         // on fabric, Registrates must be explicitly finalized and registered.
         ExampleBlocks.REGISTRATE.register();
     }

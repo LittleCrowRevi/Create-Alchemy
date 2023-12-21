@@ -1,4 +1,4 @@
-package net.examplemod.fabric;
+package littlecrow.createalchemy.fabric;
 
 import net.fabricmc.loader.api.FabricLoader;
 
