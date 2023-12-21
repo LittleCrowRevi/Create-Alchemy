@@ -13,7 +13,7 @@ public class CreateAlchemy {
 
     public static void init() {
         LOGGER.info("{} initializing! Create version: {} on platform: {}", NAME, Create.VERSION, ExampleExpectPlatform.platformName());
-        ExampleBlocks.init(); // hold registrate in a separate class to avoid loading early on forge
+        AlchemyBlocks.init(); // hold registrate in a separate class to avoid loading early on forge
     }
 
     public static ResourceLocation id(String path) {

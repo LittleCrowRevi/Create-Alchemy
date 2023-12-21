@@ -1,7 +1,7 @@
 package littlecrow.createalchemy.fabric;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
-import littlecrow.createalchemy.ExampleBlocks;
+import littlecrow.createalchemy.AlchemyBlocks;
 import littlecrow.createalchemy.CreateAlchemy;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +14,6 @@ public class CreateAlchemyFabric implements ModInitializer {
                 () -> () -> "{} is accessing Porting Lib on a Fabric server!"
                 ), CreateAlchemy.NAME);
         // on fabric, Registrates must be explicitly finalized and registered.
-        ExampleBlocks.REGISTRATE.register();
+        AlchemyBlocks.REGISTRATE.register();
     }
 }
